@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politics News</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #1a237e;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Daily News - Politics</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="sports.html">Sports</a>
+    <a href="politics.html">Politics</a>
+</nav>
+
+<div class="container">
+    <h2>Latest Political News</h2>
+
+    <div class="news-grid">
+
+        <div class="card">
+            <a href="article.html">
+                <img src="https://picsum.photos/300/200?p1">
+                <h3>Government Announces New Policy</h3>
+            </a>
+            <p>Major reforms introduced in national policy.</p>
+        </div>
+
+        <div class="card">
+            <a href="article.html">
+                <img src="https://picsum.photos/300/200?p2">
+                <h3>Election Campaign Updates</h3>
+            </a>
+            <p>Latest updates from ongoing election campaigns.</p>
+        </div>
+
+        <div class="card">
+            <a href="article.html">
+                <img src="https://picsum.photos/300/200?p3">
+                <h3>International Relations Meeting</h3>
+            </a>
+            <p>Leaders discuss global cooperation strategies.</p>
+        </div>
+
+        <div class="card">
+            <a href="article.html">
+                <img src="https://picsum.photos/300/200?p4">
+                <h3>Parliament Session Highlights</h3>
+            </a>
+            <p>Key decisions taken during the latest session.</p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Daily News</p>
+</footer>
+
+</body>
+</html>
